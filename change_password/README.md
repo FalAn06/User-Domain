@@ -4,10 +4,10 @@
 This microservice is part of the **Email Service** domain and is responsible for handling user password change requests. It provides functionality for securely changing the password of a user's email account.
 
 ## Repository Link 📁
-- [GitHub Repository](https://github.com/GaloViturco/UserService)
+- [GitHub Repository](https://github.com/FalAn06/User-Domain)
 
 ## Docker Image 🐳
-- **Docker Image:** `galo12/change_password`
+- **Docker Image:** `chamorrito/change_password`
 
 ## Purpose 🎯
 The **Change Password** microservice enables users to securely change their email account password. This service ensures that the password change process is handled efficiently and securely.
@@ -60,7 +60,7 @@ change_password/
 ## How to Deploy ⚙️
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/GaloViturco/UserService
+   git clone https://github.com/FalAn06/User-Domain
    ```
 
 2. **Install Dependencies:**
@@ -78,11 +78,11 @@ change_password/
 4. **Docker Deployment:**
    - Build the Docker image:
      ```bash
-     docker build -t galo12/change_password .
+     docker build -t chamorrito/change_password .
      ```
    - Run the container:
      ```bash
-     docker run -p 5000:5000 galo12/change_password
+     docker run -p 5000:5000 chamorrito/change_password
      ```
 
 5. **Access the Service:**

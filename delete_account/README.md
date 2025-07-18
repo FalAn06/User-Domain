@@ -4,10 +4,10 @@
 This microservice is part of the **Email Service** domain and is responsible for handling requests to delete a user's account. It securely removes user data from the system, ensuring that all information related to the user is deleted properly.
 
 ## Repository Link 📁
-- [GitHub Repository](https://github.com/GaloViturco/UserService)
+- [GitHub Repository](https://github.com/FalAn06/User-Domain)
 
 ## Docker Image 🐳
-- **Docker Image:** `galo12/delete-account`
+- **Docker Image:** `chamorrito/delete-account`
 
 ## Purpose 🎯
 The **Delete Account** microservice allows users to delete their email account and remove all associated data from the system. The service ensures that the deletion process is secure, and it interacts with the database to ensure that no traces of the user's information remain in the system.
@@ -61,7 +61,7 @@ delete_account/
 ## How to Deploy ⚙️
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/GaloViturco/UserService
+   git clone https://github.com/FalAn06/User-Domain
    ```
 
 2. **Install Dependencies:**
@@ -79,11 +79,11 @@ delete_account/
 4. **Docker Deployment:**
    - Build the Docker image:
      ```bash
-     docker build -t galo12/delete-account .
+     docker build -t chamorrito/delete-account .
      ```
    - Run the container:
      ```bash
-     docker run -p 5000:5000 galo12/delete-account
+     docker run -p 5000:5000 chamorrito/delete-account
      ```
 
 5. **Access the Service:**
